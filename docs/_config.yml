@@ -1,36 +1,18 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
 #######################################################################################
 # Jekyll site settings
-title: YOUR BOOK NAME
-author: YOUR AUTHOR NAME
-email: YOUR EMAIL
-description: >-
-  This is an example book built with Jupyter Books.
-
-baseurl: /  # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: YOUR URL                  # the base hostname & protocol for your site, e.g. http://example.com
-
+title: Manual de Usuario generación sitios web estáticos en base a curos plataforma OpenEDX
+author: Luis Daniel Erazo
+email: lderazo1@utpl.edu.ec
+description: En el presente documento se resalta el uso de un script basado en el lenguaje de programación Python y que nos muestran una nueva forma cuya interpretación resulta excelente y permite obtener mejores resultados al momento de su análisis
+baseurl: /  
+url: https://github.com/lderazo1/Manual_OpenCampus
 
 #######################################################################################
 # Jupyter Book settings
 
 # Main page settings
-footer_text: This page was created by <a href="https://github.com/ExecutableBookProject/jupyter-book/graphs/contributors">The
+footer_text: This page was created by <a href="https://github.com/jupyter/jupyter-book/graphs/contributors">The
   Jupyter Book Community</a>
 
 # Sidebar settings
@@ -68,9 +50,9 @@ jupyterhub_interact_text: Interact             # The text that interact buttons 
 use_binder_button: false                 # If 'true', add a binder button for interactive links
 binderhub_url: https://mybinder.org                        # The URL for your BinderHub. If no URL, use ""
 binder_repo_base: https://github.com/                     # The site on which the textbook repository is hosted
-binder_repo_org: YOUR-ORG                     # The username or organization that owns this repository
-binder_repo_name: YOUR-REPO                        # The name of the repository on the web
-binder_repo_branch: gh-pages                   # The branch on which your textbook is hosted.
+binder_repo_org: lderazo1                 # The username or organization that owns this repository
+binder_repo_name: VisDD_JBook/                        # The name of the repository on the web
+binder_repo_branch: master                   # The branch on which your textbook is hosted.
 binderhub_interact_text: Interact              # The text that interact buttons will contain.
 
 # Thebelab settings
@@ -158,4 +140,4 @@ plugins:
 - jekyll-scholar
 
 # Jupyter Book version - DO NOT CHANGE THIS. It is generated when a new book is created
-jupyter_book_version: 0.6.5
+jupyter_book_version: 0.6.4
