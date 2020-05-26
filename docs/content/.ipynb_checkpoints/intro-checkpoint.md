@@ -51,7 +51,3 @@ Institute for Data Science**.
 
 [sam]: http://www.samlau.me/
 [chris]: https://predictablynoisy.com
-
-```python
-
-```

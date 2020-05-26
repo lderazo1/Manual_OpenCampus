@@ -1,32 +1,31 @@
 
 # Top-level page
-- title: Generalidades
+- title: 1. Inicio
   url: /features/Inicio
   not_numbered: true
-
-- title: Req. Previos Sistema Operativo Ubuntu
-  url: /intro
+- title: 1.1. Actualización Python (Ubuntu)
+  url: /features/InstalacionPyUbuntu
   not_numbered: true
-  expand_sections: true
-  sections:
-  - title: Actualización Python
-    url: /features/InstalacionPyUbuntu
-    not_numbered: true
-  - title: Instalación PIP
-    url: /features/InstalacionPipUbuntu
-    not_numbered: true
-  - title: Instalación Entorno Virtual
-    url: /features/InstalacionEnvUbuntu
-    not_numbered: true
-    
-- title: Req. Previos Sistema Operativo Windows
-  url: /intro
-  not_numbered: true   
-  
-- title: 4. Implementación
+- title: 1.2. Instalación PIP (Ubuntu)
+  url: /features/InstalacionPipUbuntu
+  not_numbered: true
+- title: 1.3. Instalación Entorno Virtual (Ubuntu)
+  url: /features/InstalacionEnvUbuntu
+  not_numbered: true
+- title: 1.4. Instalación Python (Windows)
+  url: /features/InstalacionPyWindows
+  not_numbered: true
+- title: 1.5. Instalación Entorno Virtual (Windows)
+  url: /features/InstalacionEnvWindows
+  not_numbered: true
+      
+- title: 2. Gestión Entorno
   url: /features/Paso1
   not_numbered: true  
-    
+- title: 3. Instalación
+  url: /features/Paso2
+  not_numbered: true  
+  
 # Adds a searchbar link
 - title: Search
   search: true
